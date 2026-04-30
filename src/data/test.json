@@ -1,0 +1,92 @@
+[
+  {
+    "problemId": "2f46f25c-9598-48de-abd8-5d69e65f4de1",
+    "input": { "nums": [2, 7, 11, 15], "target": 9 },
+    "expectedOutput": "[0,1]",
+    "order": 1
+  },
+  {
+    "problemId": "2f46f25c-9598-48de-abd8-5d69e65f4de1",
+    "input": { "nums": [3, 2, 4], "target": 6 },
+    "expectedOutput": "[1,2]",
+    "order": 2
+  },
+  {
+    "problemId": "2f46f25c-9598-48de-abd8-5d69e65f4de1",
+    "input": { "nums": [3, 3], "target": 6 },
+    "expectedOutput": "[0,1]",
+    "order": 3
+  },
+  {
+    "problemId": "f6ad0d15-9ca2-410f-afba-0d3e70fdaa10",
+    "input": { "s": "()" },
+    "expectedOutput": "true",
+    "order": 1
+  },
+  {
+    "problemId": "f6ad0d15-9ca2-410f-afba-0d3e70fdaa10",
+    "input": { "s": "()[] {}" },
+    "expectedOutput": "true",
+    "order": 2
+  },
+  {
+    "problemId": "f6ad0d15-9ca2-410f-afba-0d3e70fdaa10",
+    "input": { "s": "(]" },
+    "expectedOutput": "false",
+    "order": 3
+  },
+  {
+    "problemId": "8fa9379f-1e48-40d3-bc14-1f6e0fa460e9",
+    "input": { "head": [1, 2, 3, 4, 5] },
+    "expectedOutput": "[5,4,3,2,1]",
+    "order": 1
+  },
+  {
+    "problemId": "8fa9379f-1e48-40d3-bc14-1f6e0fa460e9",
+    "input": { "head": [1, 2] },
+    "expectedOutput": "[2,1]",
+    "order": 2
+  },
+  {
+    "problemId": "8fa9379f-1e48-40d3-bc14-1f6e0fa460e9",
+    "input": { "head": [] },
+    "expectedOutput": "[]",
+    "order": 3
+  },
+  {
+    "problemId": "fd5cdc10-4e6e-4ee5-bee5-6d2eb37f2d63",
+    "input": { "height": [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1] },
+    "expectedOutput": "6",
+    "order": 1
+  },
+  {
+    "problemId": "fd5cdc10-4e6e-4ee5-bee5-6d2eb37f2d63",
+    "input": { "height": [4, 2, 0, 3, 2, 5] },
+    "expectedOutput": "9",
+    "order": 2
+  },
+  {
+    "problemId": "fd5cdc10-4e6e-4ee5-bee5-6d2eb37f2d63",
+    "input": { "height": [1, 1, 1] },
+    "expectedOutput": "0",
+    "order": 3
+  },
+  {
+    "problemId": "1e068f7a-b8bc-4e67-b862-d8bc394820d1",
+    "input": { "list1": [1, 2, 4], "list2": [1, 3, 4] },
+    "expectedOutput": "[1,1,2,3,4,4]",
+    "order": 1
+  },
+  {
+    "problemId": "1e068f7a-b8bc-4e67-b862-d8bc394820d1",
+    "input": { "list1": [], "list2": [] },
+    "expectedOutput": "[]",
+    "order": 2
+  },
+  {
+    "problemId": "1e068f7a-b8bc-4e67-b862-d8bc394820d1",
+    "input": { "list1": [], "list2": [0] },
+    "expectedOutput": "[0]",
+    "order": 3
+  }
+]

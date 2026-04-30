@@ -1,0 +1,53 @@
+{
+  "name": "judge0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio",
+    "db:drop": "drizzle-kit drop"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/multer": "^2.1.0",
+    "@types/node": "^25.1.0",
+    "@types/pdf-parse": "^1.1.5",
+    "@types/pg": "^8.16.0",
+    "drizzle-kit": "^0.31.8",
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@clerk/express": "^1.7.74",
+    "@livekit/agents": "^1.0.48",
+    "@livekit/agents-plugin-openai": "^1.0.48",
+    "@livekit/agents-plugin-silero": "^1.0.48",
+    "@supabase/supabase-js": "^2.101.1",
+    "axios": "^1.13.4",
+    "cloudinary": "^2.9.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.45.1",
+    "express": "^5.2.1",
+    "ioredis": "^5.9.3",
+    "livekit-server-sdk": "^2.15.1",
+    "msedge-tts": "^2.0.4",
+    "multer": "^2.1.1",
+    "nodemon": "^3.1.11",
+    "pdf.js-extract": "^0.2.1",
+    "pg": "^8.17.2",
+    "uuid": "^13.0.0"
+  }
+}
