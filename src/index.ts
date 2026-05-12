@@ -22,6 +22,8 @@ const PORT: number = 3000;
 // CORS configuration
 app.use(cors({
   origin: [
+    'https://metric-seven-orpin.vercel.app',
+    'https://metric-agent.onrender.com',
     'http://localhost:5173',
     'http://127.0.0.1:5173',
     'http://localhost:8000'
