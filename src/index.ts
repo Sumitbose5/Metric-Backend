@@ -14,7 +14,7 @@ import resumeRoutes from './routes/resumeRoutes';
 import { clerkMiddleware } from "@clerk/express";
 
 const app = express();
-const PORT: number = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 
 // Initialize the database connection
 // Database connection will be initialized in startServer
@@ -76,8 +76,8 @@ const startServer = async () => {
   try {
     await db.execute('SELECT 1'); 
     
-    app.listen(PORT, () => {
-      console.log(`✅ Database verified and server running at http://localhost:${PORT}`);
+    app.listen(PORT, '0.0.0.0', () => {
+      console.log(`✅ Server running on port ${PORT}`);
     });
   } catch (error) {
     console.error('❌ Failed to connect to the database:', error);
