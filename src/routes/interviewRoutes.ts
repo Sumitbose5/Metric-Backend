@@ -24,12 +24,12 @@ router.get("/question", async (req: Request, res: Response) => {
     }
 });
 
-router.post("/start", requireAuth(), startInterview);
+router.post("/start", startInterview);
 router.post("/end", endInterview);
 
 
-router.post("/resume/start", requireAuth(), startResumeInterview);
-router.post("/resume/end", requireAuth(), endResumeInterview);
+router.post("/resume/start", startResumeInterview);
+router.post("/resume/end", endResumeInterview);
 
 router.get("/feedbacks/:userId", getAllInterviewsFeedback);
 
